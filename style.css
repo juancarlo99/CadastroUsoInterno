@@ -37,12 +37,17 @@ footer{
 	margin-bottom: 30px;
 	border-radius: 60px;
 } 
-form{
+.form{
 
 	text-align: center;
 	
 	
 	
+}
+.menu-func{
+	width: 50px;
+	height: 30px;
+	overflow-y: auto;
 }
 
 

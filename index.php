@@ -9,7 +9,7 @@ session_start();
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	
-	<title >Mercado Verde Vale - Login</title>
+	<title > Login</title>
 	<link rel="shortcut icon" href="img/favicon.ico">
 	<link rel="icon" type="image/gif" href="img/animated_favicon1.gif">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
@@ -25,7 +25,7 @@ session_start();
 <div  class=" col-sm page-header bg-success"><br>
 	<div  class="container-fluid">
 		<h1 id="titulo"  class=" text-white">
-			Uso Interno - Login
+			Mercado Verde Vale - Login
 			
 		</h1>
 </div><br><br>
@@ -34,7 +34,10 @@ session_start();
 
 	
 </div>
-		
+<!--<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+			
+			<div style="float: left;" class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="pt_BR" data-type="vertical" data-theme="dark" data-vanity="juan-carlo-nunes"><a class="LI-simple-link" href='https://br.linkedin.com/in/juan-carlo-nunes?trk=profile-badge'>Juan Carlos Nunes</a></div>
+	-->
  <div id="container">
 	<form method="POST" action="index.php" class="form-vertical  js-form-loading">
 		<img src="img/vv1.jpg">
@@ -74,9 +77,10 @@ session_start();
 
 				   		 	
 				   		 	if ( $dado) { 
+
 				   		 		$senha==$res_senha;
 				   		 		$nome==$res_nome;
-				   		 		header("Location: cadastra.php");
+				   		 		header("Location: opcao.php");
 				   		 	}
 				   		 	else
 				   		 	{
@@ -94,6 +98,8 @@ session_start();
 	<footer  class="aw-layout-footer bg-success  js-content">
 		<div align="center" class="container-fluid">
 			<span  class=" text-white aw-footer-disclaimer">&copy; Juan Carlos Nunes.</span>
+
+
 		</div>
 	</footer>
 </div>

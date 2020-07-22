@@ -2,11 +2,15 @@
 
 
 //Variaveis servidores Locais
-$servidor = "localhost";
+
+//Variaveis servidores Locais
+//Variaveis servidores Locais
+
+//Variaveis servidores Locais
+$servidor = "Localhost";
 $usuario = "root";
 $senha = "";
-$dbname = "cadastro_verde_vale";
-
+$dbname = "CadastroProduto";
 
 /*//variaveis servidores Webhost
 $servidor = "localhost ";
